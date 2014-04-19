@@ -1,0 +1,31 @@
+{
+  "name": "backbone-attrs",
+  "version": "0.1.0",
+  "description": "ES5 getters/setters for Backbone models",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "coffee -c index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shesek/backbone-attrs.git"
+  },
+  "keywords": [
+    "backbone",
+    "getter",
+    "setter",
+    "attributes"
+  ],
+  "author": "Nadav Ivgi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shesek/backbone-attrs/issues"
+  },
+  "homepage": "https://github.com/shesek/backbone-attrs",
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "backbone": "^1.1.2",
+    "coffee-script": "^1.7.1"
+  }
+}
